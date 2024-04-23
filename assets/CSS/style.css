@@ -1,0 +1,331 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.logo-header{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+
+.linea-horizontal {
+    border-bottom: 3px solid black; 
+    width: 100%;
+    margin: 20px 0; 
+  }
+
+
+.card-bootstrap{
+width: 603px;
+height: 314px;
+top: 226px;
+left: 105px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+
+ }
+
+ .fecha-img-bootstrap{
+    margin-top: 10px;
+ }
+
+ .text-novedades{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+  
+ }
+
+
+ .text-populares{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+  
+ }
+ .texto-bold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
+ }
+ .texto-desafiolatam{
+
+font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ }
+
+ .text-html{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+    padding-left:100px ;
+
+ }
+
+
+
+ .text-js{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+    padding-left:100px ;
+
+ }
+ .text-css{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+   margin-left:100px ;
+
+ }
+
+ .text-react{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+    padding-left:100px ;
+
+ }
+
+ .text-vue{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+    padding-left:100px ;
+
+ }
+
+
+ .text-boots{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:white;
+    padding-left:100px ;
+
+ }
+
+.herencia-js-img{
+    width: 189px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    margin-left: 100px;
+    
+}
+
+.etiquetas-semanticas-img{
+    width: 189px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    margin-left: 100px;
+    
+}
+.react-componets-img{
+    width: 189px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    margin-left: 100px;
+    
+}
+
+
+ .logo-2-desafio{
+width: 3rem;
+border-radius: 77px ;
+opacity: 0px;
+
+ }
+
+
+ .logo-desafio-pequeño{
+width: 2rem;
+border-radius: 77px ;
+opacity: 0px;
+ }
+
+
+
+
+.vue-components-img{
+    Width:298px;
+    Height:200px;
+   border-radius: 20px;
+  
+  
+}
+
+.api-js-img{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.sass-img{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.bootstrap-img-png{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.rectangulo-rojo{
+width: 298px;
+height: 89px;
+top: 900px;
+left: 873px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background: #E93E30;
+}
+
+.rectangulo-amarillo{
+width: 298px;
+height: 89px;
+top: 900px;
+left: 873px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background: #F7E018;
+ }
+.rectangulo-celeste{
+width: 298px;
+height: 89px;
+top: 900px;
+left: 873px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+background:#299ED5;
+        }
+
+.rectangulo-negro{
+ width: 298px;
+height: 89px;
+top: 900px;
+left: 873px;
+gap: 0px;
+border-radius: 10px ;
+ opacity: 0px;
+ background:#292C33;
+}
+
+.rectangulo-verde{
+    width: 297px;
+height: 89px;
+top: 1366px;
+left: 873px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color:#67C770;
+
+}
+
+
+.rectangulo-purpura{
+    width: 297px;
+height: 89px;
+top: 1366px;
+left: 873px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color:#563D7C;
+
+}
+
+.logo-html{
+    width: 85px;
+    height: 74px;
+    top:914px;
+}
+.logo-js{
+    width: 85px;
+    height: 74px;
+    top:914px;
+}
+
+.logo-css{
+    width: 73px;
+    height: 68px;
+    top:1146px;
+}
+.logo-react{
+    width: 85px;
+    height: 74px;
+    top:914px;
+    left: 888px;
+}
+
+.logo-vue{
+    width: 77px;
+    height: 57px;
+    top:914px;
+}
+
+.logo-boots{
+    width: 85px;
+    height: 74px;
+    top:914px;
+}
+
+.ver-todaas-las-categorias{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top:45px;
+
+
+}
+
+
+.logo-footer{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+   margin-top:20px;
+   margin-bottom: 30px;
+}
+
+.text-footer{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   margin-top:45px;
+   margin-bottom: 30px;
+}
