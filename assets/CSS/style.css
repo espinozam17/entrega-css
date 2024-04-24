@@ -70,12 +70,12 @@ display:flex;
   }
 
 
-  .post-js{
+  .post__js{
     margin-top: 60px;
     margin-left: 30px;
   }
 
-  .post-js__img{
+  .post__js-img{
     width: 189px;
     height: 145px;
     top: 226px;
@@ -85,24 +85,24 @@ display:flex;
     opacity: 0px;
     margin-left: 100px;
   }
-.post-js__fecha{
+.post__js-fecha{
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
 }
 
-.post-js__descripcion-img{
+.post__js-descripcion-img{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     
 }
 
 
-.post-js__img-logo{
+.post__js-img-logo{
     width: 2rem;
     border-radius: 77px ;
     opacity: 0px;
 }
-.post-js__logo-descripcion{
+.post__js-logo-descripcion{
     font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -111,13 +111,13 @@ display:flex;
 
 
 
-.post-sematicas{
+.post__sematicas{
     margin-top: 10px;
     margin-left: 30px;
 
   }
 
-  .post-sematicas__img{
+  .post__sematicas-img{
     width: 189px;
     height: 145px;
     top: 226px;
@@ -127,22 +127,22 @@ display:flex;
     opacity: 0px;
     margin-left: 100px;
   }
-.post-sematicas__fecha{
+.post__sematicas-fecha{
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
 }
 
-.post-sematicas__descripcion-img{
+.post__sematicas-descripcion-img{
     font-family: "Poppins", sans-serif;
     font-weight: 700;}
 
 
-.post-sematicas__img-logo{
+.post__sematicas-img-logo{
     width: 2rem;
     border-radius: 77px ;
     opacity: 0px;
 }
-.post-sematicas__logo-descripcion{
+.post__sematicas-logo-descripcion{
     font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -151,12 +151,12 @@ display:flex;
 
 
 
-.post-react{
+.post__react{
     margin-top: 10px;
     margin-left: 30px;
   }
 
-  .post-react__img{
+  .post__react-img{
     width: 189px;
     height: 145px;
     top: 226px;
@@ -166,23 +166,23 @@ display:flex;
     opacity: 0px;
     margin-left: 100px;
   }
-.post-react__fecha{
+.post__react-fecha{
     margin-top: 10px;
     font-family: "Poppins", sans-serif;
 }
 
-.post-react__descripcion-img{
+.post__react-descripcion-img{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
 
 
-.post-react__img-logo{
+.post__react-img-logo{
     width: 2rem;
     border-radius: 77px ;
     opacity: 0px;
 }
-.post-react__logo-descripcion{
+.post__react-logo-descripcion{
     font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -196,7 +196,7 @@ margin-top: 35px;
 }
 
 
-.populares-vue{
+.populares__vue{
 
 }
 .populares__tittle{
