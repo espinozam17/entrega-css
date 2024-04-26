@@ -64,9 +64,9 @@ display:flex;
 
 
 .linea-horizontal {
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid rgb(90, 89, 89); 
     width: 100%;
-    margin: 20px 0; 
+    margin: 10px ; 
   }
 
 
@@ -244,7 +244,7 @@ margin-top: 5px;
 
 .populares__API-img{
     width: 298px;
-    height: 200px;
+    height: 195px;
     border-radius: 20px;
 }
 .populares__API-fecha{
@@ -309,14 +309,14 @@ margin-top: 5px;
    
 
     .populares-bootstrap{
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
  
     
     .populares__bootstrap-img{
         Width:298px;
-        Height:200px;
+        Height:220px;
        border-radius: 20px;;
     }
     .populares__bootstrap-fecha{
@@ -523,6 +523,54 @@ margin-top: 10px;
 }
 
 
+.suscribite{
+   
+
+   
+    gap: 0px;
+    border-radius: 10px ;
+    background:rgb(50, 149, 50);
+    margin-top: 20px;
+   
+
+}
+
+.suscribite_descripcion{
+    font-size: 30px;
+    
+    padding-left:5rem ;
+    padding-top: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+}
+.suscribite_input{
+   width: 40rem;
+   height: 3rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border-radius: 1rem ;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.suscribite_btn{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 55rem;
+    position: relative;
+    border-radius: 1rem ;
+    top: -3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+   
+  
+  
+}
 
 
 .categorias__texto{
@@ -552,3 +600,249 @@ margin-top: 10px;
    margin-bottom: 30px;
    
 }
+
+
+
+
+.header__articulo-logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-left: 18rem;
+}
+.header__articulo-descripcion{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+
+.navbar {
+
+
+   
+  }
+  
+  
+
+.navbar__articulo-tittle{
+    
+    margin-left: 18rem;
+    margin-top: 3rem;
+}
+.navbar__articulo-descripcion{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+   
+
+    
+}
+
+.main__articulo {
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+
+.main__articulo-img{
+    width: 2rem;
+        border-radius: 77px ;
+        opacity: 0px;
+        margin-left: 18rem;
+}
+.main__articulo-descripcion__logo{
+    margin-top: 10px;
+    font-family: "Poppins", bold;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 1rem;
+}
+.main__articulo-descripcion__fecha{
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;  
+    padding-left: 10rem;
+}
+
+.principal__articulo{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dce0e4;
+}
+
+.principal_articulo-img_bootstrap{
+    width: 50rem;
+    height: 25rem;
+    border-radius: 3rem;
+}
+.principal__articulo-text{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.principal__articulo-text_2{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.tittle__articulo-relacionados{
+    margin-left: 11rem;
+    margin-top: 3rem;
+
+}
+
+.tittle__articulo-relacionados_text{
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 30px;
+   margin-left: 8rem;
+  
+}
+
+
+
+.card__articulo{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.card__articulo-vue {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 14rem;
+  }
+  .card__articulo-api{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 14rem;
+  }
+  .card__articulo-sass {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 12rem;
+  }
+
+
+  /*  ---------------------------_____-------------------______----___--------------   */
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  .input-container__title {
+    text-align: center;
+    font-weight: 500;
+  }
+  .input-container__input {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  
+  .buttons-container__register-text {
+    text-align: center;
+  }
+  
+  .buttons-container__register-link {
+    font-weight: 800;
+    color: black;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: clamp(500px, 40%, 700px);
+    padding: 1rem;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.5rem;
+  }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .remember-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.5rem;
+  }
+  
+  .buttons-container__button {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+  }
+
+  .buttons-container__image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  
+  .buttons-container__button--login {
+    background-color: green;
+    color: white;
+  }
+  .buttons-container__button--google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+  }
+  
+  .input-container__input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    width: 100%;
+    height: 3rem;
+  }
+  .checkbox-container__checkbox-input {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  

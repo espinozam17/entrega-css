@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlos Espinoza" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <header class="header container">
+      <img class="header-logo" src="./assets/img/logos/adl.png" />
+      <span class="header-logo__descripcion">Blog FrontEnd</span>
+    </header>
+
+    <div class="linea-horizontal"></div>
+
+    <section class="post container">
+      <div class="row">
+        <div class="col-6 mt-2">
+          <p class="post__tittle">Novedades</p>
+          <a href="./articulo.html">
+          <img
+            src="./assets/img/posts/bootstrap.png"
+            class="post__img"
+            alt="..."
+          />
+        </a>
+          <p class="post__fecha">24 Noviembre, 2022</p>
+          <p class="post__descripcion-img">
+            Modifica el tema de Bootstrap con variables css
+          </p>
+          <img
+            src="./assets/img/logos/adl.png"
+            class="post__img-logo"
+            alt="..."
+          />
+          <span class="post__logo-descripcion">Desafío Latam</span>
+        </div>
+        <!--imagenes de la column 6 de lado derecho-->
+        <div class="col-6">
+          <div class="post__js row">
+            <div class="col-7">
+              <img
+                class="post__js-img"
+                src="./assets/img/posts/Herencia-JS.png"
+              />
+            </div>
+            <div class="col-5">
+              <span class="post__js-fecha">24 Noviembre, 2022</span>
+              <p class="post__js-descripcion-img">
+                Herencia en <br />
+                java Script
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="post__js-img-logo"
+                alt="..."
+              />
+              <span class="post__js-logo-descripcion">Desafío Latam</span>
+            </div>
+          </div>
+          <!------------------------------------------------------>
+          <div class="post__sematicas row">
+            <div class="col-7">
+              <img
+                class="post__sematicas-img"
+                src="./assets/img/posts/Etiquetas-semánticas-HTML.png"
+              />
+            </div>
+            <div class="col-5">
+              <span class="post__sematicas-fecha">24 Noviembre, 2022</span>
+              <p class="post__sematicas-descripcion-img">
+                Etiqueta <br />
+                semantica
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="post__sematicas-img-logo"
+                alt="..."
+              />
+              <span class="post__sematicas-logo-descripcion"
+                >Desafío Latam</span
+              >
+            </div>
+          </div>
+          <!----------------------------------------------------->
+          <div class="row post__react">
+            <div class="col-7">
+              <img
+                class="post__react-img"
+                src="./assets/img/posts/reactComponents.png"
+              />
+            </div>
+
+            <div class="col-5">
+              <span class="post__react-fecha">24 Noviembre, 2022</span>
+              <p class="post__react-descripcion-img">
+                Componentes <br />
+                React
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="post__react-img-logo"
+                alt="..."
+              />
+              <span class="post__react-logo-descripcion">Desafío Latam</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="linea-horizontal"></div>
+    <!--section en esta parter las 12 columns deje 8 para las imagenes y 4 para los rectangulos creado en css-->
+    <section class="populares container">
+      <div class="row">
+        <div class="col-8">
+          <h1 class="populares__tittle">Populares</h1>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col populares_vue">
+              <img
+                src="./assets/img/posts/vue-components.png"
+                class="populares__vue-img"
+                alt="..."
+              />
+
+              <p class="populares__vue-fecha">24 Noviembre, 2022</p>
+              <p class="populares__vue-descripcion--img">Componentes Vue</p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="populares__vue-img--logo"
+                alt="..."
+              />
+              <span class="populares__vue-logo--descripcion"
+                >Desafío Latam</span
+              >
+            </div>
+
+            <div class="populares-API col">
+              <img
+                src="./assets/img/posts/api-js.png"
+                class="populares__API-img"
+                alt="..."
+              />
+
+              <p class="populares__API-fecha">24 Noviembre, 2022</p>
+              <p class="populares__API-descripcion--img">
+                Consumo de API con <br />
+                JavaScript
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="populares__API-img--logo"
+                alt="..."
+              />
+              <span class="populares__API-logo--descripcion"
+                >Desafío Latam</span
+              >
+            </div>
+
+            <div class="col populares-sass">
+              <img
+                src="./assets/img/posts/sass.jpg"
+                class="populares__sass-img"
+                alt="..."
+              />
+
+              <p class="populares__sass-fecha">24 Noviembre, 2022</p>
+              <p class="populares__sass-descripcion--img">
+                CSS Reutilizable con Sass
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="populares__sass-img--logo"
+                alt="..."
+              />
+              <span class="populares__sass-logo--descripcion"
+                >Desafío Latam</span
+              >
+            </div>
+
+            <div class="col populares-bootstrap">
+              <img
+                src="./assets/img/posts/bootstrap.png"
+                class="populares__bootstrap-img"
+                alt="..."
+              />
+
+              <p class=".populares__bootstrap-fecha">24 Noviembre, 2022</p>
+              <p class="populares__bootstrap-descripcion--img">
+                Componentes Bootstrap
+              </p>
+              <img
+                src="./assets/img/logos/adl.png"
+                class="populares__bootstrap-img--logo"
+                alt="..."
+              />
+              <span class="populares__bootstrap-logo--descripcion"
+                >Desafío Latam</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--rectangulos-->
+
+        <div class="categorias col-4">
+          <h1 class="categorias__tittle">Categorias</h1>
+          <div class="categorias__html">
+            <img
+              class="categorias__html-img"
+              src="./assets/img/logos/html.png"
+            />
+            <span class="categorias__html-titulo">HTML</span>
+          </div>
+          <div class="categorias__js">
+            <img class="categorias__js-img" src="./assets/img/logos/js.png" />
+            <span class="categorias__js-titulo">JavaScript</span>
+          </div>
+          <div class="categorias__css">
+            <img class="categorias__css-img" src="./assets/img/logos/css.png" />
+            <span class="categorias__css-titulo">CSS</span>
+          </div>
+          <div class="categorias__react">
+            <img
+              class="categorias__react-img"
+              src="./assets/img/logos/react.png"
+            />
+            <span class="categorias__react-titulo">React</span>
+          </div>
+          <div class="categorias__vue">
+            <img class="categorias__vue-img" src="./assets/img/logos/vue.png" />
+            <span class="categorias__vue-titulo">Vue</span>
+          </div>
+          <div class="categorias__bootstrap">
+            <img
+              class="categorias__bootstrap-img"
+              src="./assets/img/logos/bootstrap-logo.png"
+            />
+            <span class="categorias__bootstrap-titulo">Bootstrap</span>
+          </div>
+          <p class="categorias__texto">Ver todas las categorias ></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container suscribite">
+      <h2 class="suscribite_descripcion">Mantente actulizado sobre el <br>
+      Desarrollo Fron End</h2>
+
+      <div >
+        <input class="suscribite_input" />
+      </div>
+      <button class="suscribite_btn">Suscribite</button>
+
+    
+    </section>
+    <div class="linea-horizontal"></div>
+
+    <footer>
+      <div class="footer container">
+        <div class="row">
+          <div class="col-9">
+            <img class="footer__logo" src="./assets/img/logos/adl.png" />
+            <span class="footer__logo-descriptcion">Blog FrontEnd</span>
+          </div>
+          <div class="col-3">
+            <p class="footer__texto">Desafío Latam - 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
