@@ -1,0 +1,29 @@
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #00000033;
+  }
+  
+  .brand-container__image {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .header__articulo-logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-left: 18rem;
+}
+
+.header__articulo-descripcion{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  
+}
